@@ -1,5 +1,5 @@
 # Packet Sniffer
-This is a small project in python that i made to better understand how the network works. The code only work on linux based Os since because of this **socket.AF_PACKET**. 
+This is a small project in python that i made to better understand how the network works. The code only work on linux based Os because of this **socket.AF_PACKET**. 
 ## The Ethernet Frame
 In computer networking, an Ethernet frame is a data link layer protocol data unit and uses the underlying Ethernet physical layer transport mechanisms. In other words, a data unit on an Ethernet link transports an Ethernet frame as its payload.
 ![alt text](https://github.com/marcocampione/Packet-sniffer/blob/master/Img/Ethernet_Frame.png)
