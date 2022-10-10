@@ -4,14 +4,6 @@ This is a small project in python that i made to better understand how the netwo
 In computer networking, an Ethernet frame is a data link layer protocol data unit and uses the underlying Ethernet physical layer transport mechanisms. In other words, a data unit on an Ethernet link transports an Ethernet frame as its payload.
 ![alt text](https://github.com/marcocampione/Packet-sniffer/blob/master/Img/Ethernet_Frame.png)
 
-## How does it work
-What our program does is it sits on the network and it just waits for data to come across now
-whenever it receives any data what it does is it takes it and it starts trying to figure out what it is. We can figure out the: 
-- destination **(dest_mac)** ;
-- what device it's coming from **(scr_mac)** ; 
-- where it's going to the Ethernet protocol **(eth_proto)** ;
-- another package **(data)** ;
-
 ## What are the IP packets
 In networking, a packet is a small segment of a larger message. Data sent over computer networks, such as the Internet, is divided into packets. These packets are then recombined by the computer or device that receives them.
 ### IP Header
